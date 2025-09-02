@@ -5,4 +5,4 @@
 
 namespace ExtGameDataUtil {
     ExtGameDataHolder* getCurrentGameDataHolder();
-}
+};

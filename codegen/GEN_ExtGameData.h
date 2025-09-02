@@ -25,4 +25,4 @@ namespace {
     };
 
     const s32 cExtSaveChunkCount = sizeof(cExtSaveChunkCreateTable) / sizeof(ChunkCreationFunc);
-}
+};
