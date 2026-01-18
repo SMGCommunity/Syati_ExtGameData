@@ -1,6 +1,6 @@
 {
   "Name": "Syati Extended Save Files",
-  "Author": "VTXG, Evanbowl",
+  "Author": "[Primary Module]",
   "Description": "A module that allows the creation of new binary data chunks in GameData.bin.",
   "APIId": "Syati_ExtGameData_API",
   "CompilerFlags": [

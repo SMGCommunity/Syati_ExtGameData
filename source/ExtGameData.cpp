@@ -1,6 +1,8 @@
 #include "ModuleData_ExtGameData.h"
 #include "ExtGameDataUtil.h"
 
+// Written by VTXG & Evanbowl
+
 #define BASE_CHUNK_COUNT 6
 
 void extCreateChunks(ExtGameDataHolder *pHolder) {
