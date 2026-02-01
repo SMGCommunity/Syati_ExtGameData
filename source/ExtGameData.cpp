@@ -34,6 +34,6 @@ kmWrite16(0x804D483A, BASE_CHUNK_COUNT + cExtSaveChunkCount);
 kmCall(0x804D488C, extCreateChunks);
 kmWrite16(0x804DF00E, sizeof(ExtGameDataHolder));
 
-kmWrite32(0x804D4B6C, 0x7FE3FB78); // mr r3, r31
+kmWrite32(0x804D4B6C, PPC_MR(3, 31)); // mr r3, r31
 kmCall(0x804D4B70, extResetAllData);
-kmWrite32(0x804D4B74, 0x4800000C); // b 0xC
+kmWrite32(0x804D4B74, PPC_B(0xC)); // b 0xC
