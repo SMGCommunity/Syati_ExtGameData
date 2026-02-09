@@ -6,11 +6,7 @@
   "CompilerFlags": [
     "-DEXT_GAME_DATA"
   ],
-  "SupportedGames": [
-    "SB4E",
-    "SB4P",
-    "SB4J"
-  ],
+  "SupportedGames": [ "SB4" ],
   "ModuleExtensionDefinition": [
     {
       "Name": "NewSaveChunk",
